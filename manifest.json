@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "udm14",
+    "version": "1.0",
+    "description": "Adds the udm=14 query parameter to all Google Searchb URLs",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://www.google.com/search*"
+    ],
+    "background": {
+        "scripts": ["index.js"]
+    }
+}
